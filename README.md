@@ -1,2 +1,2 @@
 # meteora
-Meteora is an unreal e-commerce that is part of Alura Challenge #7
+Meteora is a fictional e-commerce that is part of Alura Challenge #7
