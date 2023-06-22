@@ -1,8 +1,14 @@
 'use client'
 
-function Button({ type, styleClasses, text })  {
+type ButtonParams = {
+    buttonType: string,
+    styleClasses: string,
+    text: string
+};
+
+function Button({ buttonType, styleClasses, text }:ButtonParams)  {
     return(
-        <button type={type} className={styleClasses}>{text}</button>
+        <button type="submit" className={styleClasses}>{text}</button>
     )
 }
 
